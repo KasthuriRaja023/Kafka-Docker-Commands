@@ -1,0 +1,43 @@
+1.docker --version
+sudo docker --version
+
+2.docker pull <image-name>
+sudo docker pull <image-name>
+
+3.docker images
+sudo docker images
+
+4.docker rmi <image-id>
+sudo docker rmi <image-id>
+
+5.docker run -d --name <container-name> <image-name>
+sudo docker run -d --name <container-name> <image-name>
+
+6.docker ps
+sudo docker ps
+
+7.docker ps -a
+sudo docker ps -a
+
+8.docker stop <container-id>
+sudo docker stop <container-id>
+
+9.docker start <container-id>
+sudo docker start <container-id>
+
+10.docker restart <container-id>
+sudo docker restart <container-id>
+
+11.docker rm <container-id>
+sudo docker rm <container-id>
+
+#No
+12.docker volume create <volume-name>
+sudo docker volume create <volume-name>
+
+13.docker volume ls
+sudo docker volume ls
+
+14.docker volume rm <volume-name>
+sudo docker volume rm <volume-name>
+
